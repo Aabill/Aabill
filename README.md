@@ -2,12 +2,12 @@
 
  ---
  
-- 🔭 I’m currently working on myself
-- 🌱 I’m currently learning [Google Cloud Storage](http://cloud.google.com/storage/) and [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html)
+- 🔭 I’m currently working on myself.
+- 🌱 I’m currently learning [Google Cloud Storage](http://cloud.google.com/storage/) and [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html).
 - 👯 I’m looking to collaborate on something I haven't thought of yet.
-- 🤔 I’m looking for help with my lovelife
-- 💬 Ask me about anything but lovelife
-- 📫 How to reach me: [messenger](http://www.messenger.com/t/aabill.domingo)
+- 🤔 I’m looking for help with my lovelife.
+- 💬 Ask me about anything but lovelife.
+- 📫 How to reach me: [messenger](http://www.messenger.com/t/aabill.domingo).
 - 😄 Pronouns: he / him / his
 - ⚡ Fun fact: I can make bubbles using my saliva.
 
