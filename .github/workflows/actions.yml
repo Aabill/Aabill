@@ -10,5 +10,3 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
-    env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
