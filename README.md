@@ -7,7 +7,6 @@
 - 👯 I’m looking to collaborate on something I haven't thought of yet.
 - 🤔 I’m looking for help with my lovelife.
 - 💬 Ask me about anything but lovelife.
-- 📫 How to reach me: [messenger](http://www.messenger.com/t/aabill.domingo).
 - 😄 Pronouns: he / him / his
 - ⚡ Fun fact: I can make bubbles using my saliva.
 
