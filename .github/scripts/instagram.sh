@@ -1,2 +1,2 @@
 curl -X GET \
-  'https://graph.instagram.com/me?fields=id,username&access_token=IGQVJXaUc3WXBGX3JneWgwWmw5S3lSeklKY2EwRUk4NFJmS2lHTmFkQ2lINGJRa3lPZAzBlZAWE2b2hsWno3THl4aHVEal9tYTlvazI3cHB6eGpac2h0X0dYcmd6czZAkRTBoQlY2UENCbXlUbG1peFhRdQZDZD'
+  'https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username&access_token=IGQVJXaUc3WXBGX3JneWgwWmw5S3lSeklKY2EwRUk4NFJmS2lHTmFkQ2lINGJRa3lPZAzBlZAWE2b2hsWno3THl4aHVEal9tYTlvazI3cHB6eGpac2h0X0dYcmd6czZAkRTBoQlY2UENCbXlUbG1peFhRdQZDZD'
