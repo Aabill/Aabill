@@ -12,7 +12,8 @@ jobs:
       uses: actions/checkout@v1
     - name: curl
       uses: wei/curl@v1
-      with: curl -X POST \
+      with: 
+        args: -X POST \
               https://api.instagram.com/oauth/access_token \
               -F client_id=2805644083092506 \
               -F client_secret=1ce1bfc5e8ac241c8a39b0f93b6b4adf \
