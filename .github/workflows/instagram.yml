@@ -5,7 +5,7 @@ on:
       - instagram
 jobs:
   instagram:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: Test curl
     steps:
     - name: Checkout current repository to Master branch
