@@ -9,7 +9,7 @@ jobs:
     name: Test curl
     steps:
     - name: Checkout current repository to Master branch
-      uses: actions/checkout@v1
+    - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
     - run: node ./.github/scripts/index.js
-    - shell: bash
+      shell: bash
