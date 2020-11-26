@@ -8,8 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Test curl
     steps:
-    - name: Checkout current repository to Master branch
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
-    - run: node ./.github/scripts/index.js
-      shell: bash
+      - name: Checkout current repository to Master branch
+        uses: actions/checkout@v1
+      - name: Setup Node
+        uses: actions/setup-node@v1
+      - name: Run JS Script
+        run: node ./.github/scripts/index.js
+        shell: bash
