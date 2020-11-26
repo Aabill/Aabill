@@ -10,7 +10,6 @@ jobs:
     steps:
     - name: Checkout current repository to Master branch
       uses: actions/checkout@v1
-    - name: Setup Node
-      uses: actions/setup-node@v1
-      run: node ./.github/scripts/index.js
-      shell: bash
+    - uses: actions/setup-node@v1
+    - run: node ./.github/scripts/index.js
+    - shell: bash
