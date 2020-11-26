@@ -12,6 +12,5 @@ jobs:
       uses: actions/checkout@v1
     - name: Setup Node
     - uses: actions/setup-node@v1
-    - name: Run Instagram Script
       run: node ./.github/scripts/index.js
       shell: bash
