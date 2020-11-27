@@ -15,5 +15,7 @@ jobs:
       - name: Run JS Script
         env:
           SOME_TEXT: Testing Some Text env
-        run: node ./.github/scripts/index.js
+        run: |
+          ls
+          node ./.github/scripts/index.js
         shell: bash
