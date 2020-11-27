@@ -23,3 +23,20 @@ jobs:
         env:
           PASSWORD: Testing Some Text env
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      - name: Create Test.md File
+        run: |
+          expr 1 + 1 > test.md
+      - name: Upload Test File
+        uses: actions/upload-artifact@v1
+        with:
+          name: test-md-file
+          path: test.md
+      - name: Download a single artifact
+        uses: actions/download-artifact@v1
+        with:
+          name: test-md-file
+      - name: Commit and Push new test.md to the repository
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: sharingdata
