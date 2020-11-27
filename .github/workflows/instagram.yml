@@ -15,8 +15,9 @@ jobs:
       - name: Make envfile
         uses: SpicyPizza/create-envfile@v1
         with:
-          envkey_SOME_KEY: "Some Text ngay pimans ENV"
-          directory: /
+          args:
+            envkey_SOME_KEY: "Some Text ngay pimans ENV"
+            directory: /
           file_name: .env
       - name: Run JS Script
         run: node ./.github/scripts/index.js
