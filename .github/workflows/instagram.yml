@@ -1,9 +1,11 @@
-name: Instagram Get Latest Posts Image
+name: Update README.md
 on:
   push:
     branches:
       - instagram
       - main
+  schedule:
+    - cron: '0 */6 * * *'
 jobs:
   instagram:
     runs-on: ubuntu-18.04
