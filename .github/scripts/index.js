@@ -32,15 +32,16 @@ let README = `
 function WriteNewREADME(data) {
     let data_images = data.filter(el => el.media_type == "IMAGE");
 
-    write.sync('README.md', `${README} <br/> testing write some data...`, { newline: true }); 
+    let content = `${README}`;
+
     for (let i = 0; i < data_images.length; i++)
     {
         if (i < 3){
-            write.sync('README.md', `<br/> ${data_images[i].media_url} and ${data_images[i].permalink}`, { newline: true }); 
+            content += `<br/> ${data_images[i].media_url} and ${data_images[i].permalink}`
         }
         break;
     }
-    
+    write.sync('README.md', content, { newline: true }); 
 }
 
 axios.get('https://graph.instagram.com/me/media', {
