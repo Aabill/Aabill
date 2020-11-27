@@ -1,12 +1,13 @@
-name: Instagram Request
+name: Instagram Get Latest Posts Image
 on:
   push:
     branches:
       - instagram
+      - main
 jobs:
   instagram:
     runs-on: ubuntu-18.04
-    name: Instagram Test
+    name: Instagram Get Data
     steps:
       - name: Checkout current repository to Master branch
         uses: actions/checkout@v1
