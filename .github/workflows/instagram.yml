@@ -12,10 +12,8 @@ jobs:
         uses: actions/checkout@v1
       - name: Setup Node
         uses: actions/setup-node@v1
-      - name: Make envfile
-        uses: SpicyPizza/create-envfile@v1
-        with:
-          envkey_SOME_KEY: "Some Text ngay pimans ENV"
       - name: Run JS Script
+        env:
+          SOME_TEXT: Testing Some Text env
         run: node ./.github/scripts/index.js
         shell: bash
