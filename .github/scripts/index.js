@@ -1,21 +1,24 @@
 const dotenv = require("dotenv");
+const axios = require("axios");
 
 dotenv.config();
 
 
 console.log(process.env.PASSWORD);
 
-let promise = fetch(`https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username&access_token=${process.env.IG_TOKEN}`);
-
-promise.then(response => {
-    if (response.status !== 200) {
-        console.log('Looks like there was a problem. Status Code: ' +
-          response.status);
-        return;
+axios.get('https://graph.instagram.com/me/media', {
+    params: {
+        fields: 'id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username',
+        access_token: process.env.IG_TOKEN
     }
-    response.json().then(data => {
-        console.log(data);
-    }).catch(error => {
-        console.log(error.message);
-    })
-})
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+    console.log("Done Axios");
+  });  
