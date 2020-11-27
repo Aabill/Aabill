@@ -16,13 +16,6 @@ jobs:
         run: |
           npm install dotenv --save
           npm install axios --save
-      - name: Run JS Script
-        run: |
-          node ./.github/scripts/index.js
-        shell: bash
-        env:
-          PASSWORD: Testing Some Text env
-          IG_TOKEN: ${{ secrets.IG_TOKEN }}
       - name: Create Test.md File
         run: |
           expr 1 + 1 > test.md
@@ -31,6 +24,13 @@ jobs:
         with:
           name: test-md-file
           path: test.md
+      - name: Run JS Script
+        run: |
+          node ./.github/scripts/index.js
+        shell: bash
+        env:
+          PASSWORD: Testing Some Text env
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
       - name: Commit and Push new test.md to the repository
         uses: mikeal/publish-to-github-action@master
         env:
