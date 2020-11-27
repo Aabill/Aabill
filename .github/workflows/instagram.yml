@@ -6,7 +6,7 @@ on:
 jobs:
   instagram:
     runs-on: ubuntu-latest
-    name: Test curl
+    name: Instagram Test
     steps:
       - name: Checkout current repository to Master branch
         uses: actions/checkout@v1
@@ -15,7 +15,7 @@ jobs:
       - name: Make envfile
         uses: SpicyPizza/create-envfile@v1
         with:
-          envkey_TEST: "Testing ngay pimans ENV"
+          envkey_SOME_TEXT: "Some Text ngay pimans ENV"
           file_name: .env
       - name: Run JS Script
         run: node ./.github/scripts/index.js

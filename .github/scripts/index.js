@@ -1,5 +1,5 @@
 console.log("Accessing .env");
 
-const test = process.env.TEST;
+const test = process.env.SOME_TEXT;
 
 console.log(test);
