@@ -2,7 +2,6 @@ name: Update README.md
 on:
   push:
     branches:
-      - instagram
       - main
   schedule:
     - cron: '0 */6 * * *'
@@ -31,4 +30,4 @@ jobs:
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: instagram
+          BRANCH_NAME: main
