@@ -22,4 +22,4 @@ axios.get('https://graph.instagram.com/me/media', {
     console.log("Done Axios Get Request.");
   });  
 
-  write.sync("wew.md', 'testing write some data...', { newline: true }); 
+  write.sync('wew.md', 'testing write some data...', { newline: true }); 
