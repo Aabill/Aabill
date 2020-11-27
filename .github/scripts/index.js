@@ -41,7 +41,9 @@ function WriteNewREADME(data) {
         if (i < 3){
             content += `<span><a href="${data_images[i].permalink}"> <img align="center" alt="test" width="250px" src="${data_images[i].media_url}"/></a></span>`;
         }
-        break;
+        else {
+            break;
+        }
     }
     write.sync('README.md', content, { newline: true }); 
 }
