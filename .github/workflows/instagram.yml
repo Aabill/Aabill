@@ -1,0 +1,31 @@
+name: Instagram Request
+on:
+  push:
+    branches:
+      - instagram
+jobs:
+  instagram:
+    runs-on: ubuntu-18.04
+    name: Instagram Test
+    steps:
+      - name: Checkout current repository to Master branch
+        uses: actions/checkout@v1
+      - name: Setup Node
+        uses: actions/setup-node@v1
+      - name: Install dotenv and axios and write
+        run: |
+          npm install dotenv --save
+          npm install axios --save
+          npm install --save write
+      - name: Run JS Script
+        run: |
+          node ./.github/scripts/index.js
+        shell: bash
+        env:
+          PASSWORD: Testing Some Text env
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+      - name: Commit and Push to the repository
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: instagram
