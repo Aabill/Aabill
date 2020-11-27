@@ -20,3 +20,4 @@ jobs:
         shell: bash
         env:
           PASSWORD: Testing Some Text env
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}

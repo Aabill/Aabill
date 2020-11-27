@@ -4,3 +4,5 @@ dotenv.config();
 
 
 console.log(process.env.PASSWORD);
+
+console.log(process.env.IG_TOKEN);
