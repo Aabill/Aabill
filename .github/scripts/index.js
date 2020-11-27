@@ -27,6 +27,8 @@ let README = `
 
 ### 📫 <domingoaaronbill@gmail.com>
 [![Aabill's github stats](https://github-readme-stats.vercel.app/api?username=Aabill)](https://github.com/Aabill/github-readme-stats)
+
+### Latest Instagram Posts
 `;
 
 function WriteNewREADME(data) {
@@ -37,7 +39,7 @@ function WriteNewREADME(data) {
     for (let i = 0; i < data_images.length; i++)
     {
         if (i < 3){
-            content += `<br/> ${data_images[i].media_url} and ${data_images[i].permalink}`
+            content += `<span><a href="${data_images[i].permalink}"> <img align="center" alt="test" width="250px" src="${data_images[i].media_url}"/></a></span>`;
         }
         break;
     }
@@ -51,7 +53,6 @@ axios.get('https://graph.instagram.com/me/media', {
     }
   })
   .then(function (response) {
-    console.log(response.data.data);
     WriteNewREADME(response.data.data);
   })
   .catch(function (error) {
