@@ -13,9 +13,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
       - name: Run JS Script
-        env:
-          SOME_TEXT: Testing Some Text env
         run: |
           ls
           node ./.github/scripts/index.js
         shell: bash
+        env:
+          SOME_TEXT: Testing Some Text env
