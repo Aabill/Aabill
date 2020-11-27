@@ -12,6 +12,11 @@ jobs:
         uses: actions/checkout@v1
       - name: Setup Node
         uses: actions/setup-node@v1
+      - name: Make envfile
+        uses: SpicyPizza/create-envfile@v1
+        with:
+          envkey_TEST: 'Testing yords Env Test'
+          file_name: .env
       - name: Run JS Script
         run: node ./.github/scripts/index.js
         shell: bash

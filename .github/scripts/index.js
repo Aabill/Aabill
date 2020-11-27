@@ -1,1 +1,5 @@
-console.log("Testing Console Log Yords");
+console.log("Accessing .env");
+
+const test = process.env.TEST;
+
+console.log(test);
