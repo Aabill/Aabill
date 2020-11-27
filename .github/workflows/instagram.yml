@@ -12,10 +12,11 @@ jobs:
         uses: actions/checkout@v1
       - name: Setup Node
         uses: actions/setup-node@v1
+      - name: Install dotenv
+        run: npm install dotenv --save
       - name: Run JS Script
         run: |
-          ls
           node ./.github/scripts/index.js
         shell: bash
         env:
-          SOME_TEXT: Testing Some Text env
+          PASSWORD: Testing Some Text env

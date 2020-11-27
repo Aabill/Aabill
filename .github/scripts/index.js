@@ -1,5 +1,6 @@
-console.log("Accessing .env");
+const dotenv = require("dotenv");
 
-const test = process.env.SOME_KEY;
+dotenv.config();
 
-console.log(test);
+
+console.log(process.env.PASSWORD);
