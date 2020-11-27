@@ -39,7 +39,7 @@ function WriteNewREADME(data) {
     for (let i = 0; i < data_images.length; i++)
     {
         if (i < 3){
-            content += `<span><a href="${data_images[i].permalink}"> <img align="center" alt="test" width="250px" src="${data_images[i].media_url}"/></a></span>`;
+            content += `<span><a href="${data_images[i].permalink}"> <img align="center" alt="latest-instagram-post-${i}" width="250px" src="${data_images[i].media_url}"/></a></span>`;
         }
         else {
             break;
