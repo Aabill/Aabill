@@ -12,10 +12,11 @@ jobs:
         uses: actions/checkout@v1
       - name: Setup Node
         uses: actions/setup-node@v1
-      - name: Install dotenv and axios
+      - name: Install dotenv and axios and write
         run: |
           npm install dotenv --save
           npm install axios --save
+          npm install --save write
       - name: Create Test.md File
         run: |
           expr 1 + 1 > test.md
