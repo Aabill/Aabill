@@ -4,24 +4,6 @@ const write = require('write');
 
 dotenv.config();
 
-
-axios.get('https://graph.instagram.com/me/media', {
-    params: {
-        fields: 'id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username',
-        access_token: process.env.IG_TOKEN
-    }
-  })
-  .then(function (response) {
-    console.log(response.data.data);
-  })
-  .catch(function (error) {
-    console.log(error);
-  })
-  .then(function () {
-    // always executed
-    console.log("Done Axios Get Request.");
-  });  
-
 let README = `
 ### Hi there 👋
 
@@ -45,6 +27,37 @@ let README = `
 
 ### 📫 <domingoaaronbill@gmail.com>
 [![Aabill's github stats](https://github-readme-stats.vercel.app/api?username=Aabill)](https://github.com/Aabill/github-readme-stats)
-`
+`;
 
-  write.sync('README.md', `${README} <br/> testing write some data...`, { newline: true }); 
+function WriteNewREADME(data) {
+    let data_images = data.filter(el => el.media_type == "IMAGE");
+
+    write.sync('README.md', `${README} <br/> testing write some data...`, { newline: true }); 
+    for (let i = 0; i < data_images.length; i++)
+    {
+        if (i < 3){
+            write.sync('README.md', `<br/> ${data_images[i].media_url} and ${data_images[i].permalink}`, { newline: true }); 
+        }
+        break;
+    }
+    
+}
+
+axios.get('https://graph.instagram.com/me/media', {
+    params: {
+        fields: 'id,caption,media_type,media_url,permalink,thumbnail_url,timestamp,username',
+        access_token: process.env.IG_TOKEN
+    }
+  })
+  .then(function (response) {
+    console.log(response.data.data);
+    WriteNewREADME(response.data.data);
+  })
+  .catch(function (error) {
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+    console.log("Done Axios Get Request.");
+  });  
+

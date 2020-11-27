@@ -17,9 +17,9 @@ jobs:
           npm install dotenv --save
           npm install axios --save
           npm install --save write
-      - name: Create Test.md File
-        run: |
-          expr 1 + 1 > test.md
+      # - name: Create Test.md File
+      #   run: |
+      #     expr 1 + 1 > test.md
       - name: Run JS Script
         run: |
           node ./.github/scripts/index.js
@@ -27,11 +27,11 @@ jobs:
         env:
           PASSWORD: Testing Some Text env
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-      - name: Upload Test File
-        uses: actions/upload-artifact@v1
-        with:
-          name: wew-md-file
-          path: wew.md
+      # - name: Upload Test File
+      #   uses: actions/upload-artifact@v1
+      #   with:
+      #     name: wew-md-file
+      #     path: wew.md
       - name: Commit and Push new test.md to the repository
         uses: mikeal/publish-to-github-action@master
         env:
