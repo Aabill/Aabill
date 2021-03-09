@@ -9,7 +9,7 @@ let README = `
 
  ---
  
-- 🔭 I’m currently working on Upchannel ApS.
+- 🔭 I’m currently remotely working on [Upchannel ApS](http://upchannel.eu).
 - 🌱 I’m currently learning [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html).
 - 👯 I’m looking to collaborate on anything.
 <!-- 🤔 I’m looking for help with my lovelife. -->
