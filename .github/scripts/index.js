@@ -1,6 +1,6 @@
 const dotenv = require("dotenv");
 const axios = require("axios");
-const write = require('write');
+// const write = require('write');
 
 dotenv.config();
 
@@ -9,11 +9,11 @@ let README = `
 
  ---
  
-- 🔭 I’m currently working on myself.
-- 🌱 I’m currently learning [Google Cloud Storage](http://cloud.google.com/storage/) and [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html).
-- 👯 I’m looking to collaborate on something I haven't thought of yet.
-- 🤔 I’m looking for help with my lovelife.
-- 💬 Ask me about anything but lovelife.
+- 🔭 I’m currently working on Upchannel ApS.
+- 🌱 I’m currently learning [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html).
+- 👯 I’m looking to collaborate on anything.
+#- 🤔 I’m looking for help with my lovelife.
+!- 💬 Ask me about anything but lovelife.
 - 😄 Pronouns: he / him / his
 - ⚡ Fun fact: I can make bubbles using my saliva.
 
@@ -55,6 +55,7 @@ axios.get('https://graph.instagram.com/me/media', {
     }
   })
   .then(function (response) {
+    console.log(response.data.data);
     WriteNewREADME(response.data.data);
   })
   .catch(function (error) {
