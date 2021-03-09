@@ -55,8 +55,8 @@ axios.get('https://graph.instagram.com/me/media', {
     }
   })
   .then(function (response) {
-    console.log(response.data.data);
-    // WriteNewREADME(response.data.data);
+    // console.log(response.data.data);
+    WriteNewREADME(response.data.data);
   })
   .catch(function (error) {
     console.log(error);
