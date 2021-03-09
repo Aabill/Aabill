@@ -12,8 +12,8 @@ let README = `
 - 🔭 I’m currently working on Upchannel ApS.
 - 🌱 I’m currently learning [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html).
 - 👯 I’m looking to collaborate on anything.
-#- 🤔 I’m looking for help with my lovelife.
-!- 💬 Ask me about anything but lovelife.
+<!-- 🤔 I’m looking for help with my lovelife. -->
+<!-- 💬 Ask me about anything but lovelife. -->
 - 😄 Pronouns: he / him / his
 - ⚡ Fun fact: I can make bubbles using my saliva.
 
