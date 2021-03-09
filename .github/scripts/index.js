@@ -1,6 +1,6 @@
 const dotenv = require("dotenv");
 const axios = require("axios");
-// const write = require('write');
+const write = require('write');
 
 dotenv.config();
 
