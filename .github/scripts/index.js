@@ -36,7 +36,7 @@ function WriteNewREADME(data) {
 
     let content = `${README}`;
 
-    for (let i = 0; i < data_images.length; i++)
+    for (let i = data.images.length; i > (i-3); i--)
     {
         if (i < 3){
             content += `<span><a href="${data_images[i].permalink}"> <img align="center" alt="latest-instagram-post-${i}" width="250px" src="${data_images[i].media_url}"/></a></span>`;
@@ -55,7 +55,7 @@ axios.get('https://graph.instagram.com/me/media', {
     }
   })
   .then(function (response) {
-    // console.log(response.data.data);
+    console.log(response.data.data);
     WriteNewREADME(response.data.data);
   })
   .catch(function (error) {
