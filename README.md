@@ -3,7 +3,7 @@
 
  ---
  
-- 🔭 I’m currently working on Upchannel ApS.
+- 🔭 I’m currently remotely working on [Upchannel ApS](http://upchannel.eu).
 - 🌱 I’m currently learning [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html).
 - 👯 I’m looking to collaborate on anything.
 <!-- 🤔 I’m looking for help with my lovelife. -->
@@ -23,4 +23,4 @@
 [![Aabill's github stats](https://github-readme-stats.vercel.app/api?username=Aabill)](https://github.com/Aabill/github-readme-stats)
 
 ### Latest Instagram Posts
-<span><a href="https://www.instagram.com/p/CMIygHWjYsr/"> <img align="center" alt="latest-instagram-post-0" width="250px" src="https://scontent-ort2-1.cdninstagram.com/v/t51.29350-15/157679783_1398769743848897_1494064411336559606_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=WPCSX94wQJEAX_iLk9m&_nc_ht=scontent-ort2-1.cdninstagram.com&oh=d4fe45202e47f5a9d9654ac3d48cf0f2&oe=606D3E1B"/></a></span><span><a href="https://www.instagram.com/p/CINFhJwDd0M/"> <img align="center" alt="latest-instagram-post-1" width="250px" src="https://scontent-ort2-1.cdninstagram.com/v/t51.29350-15/128455823_160591145791989_1679633727913656942_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=fqeOaR5t_cYAX9Bb2Lc&_nc_ht=scontent-ort2-1.cdninstagram.com&oh=2f45563a50beb60e922fd40f026896ce&oe=606E1F6B"/></a></span><span><a href="https://www.instagram.com/p/CIKQi8LDcdT/"> <img align="center" alt="latest-instagram-post-2" width="250px" src="https://scontent-ort2-1.cdninstagram.com/v/t51.29350-15/128112721_126330455931123_9129911455660629017_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=7FiTwm3J1wAAX9D-InX&_nc_ht=scontent-ort2-1.cdninstagram.com&oh=3eefb80978d1275c81e3f2a6e56427c6&oe=606EAB51"/></a></span>
+<span><a href="https://www.instagram.com/p/CMIygHWjYsr/"> <img align="center" alt="latest-instagram-post-0" width="250px" src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/157679783_1398769743848897_1494064411336559606_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=ie9fUviJSKUAX8ervJu&_nc_ht=scontent-iad3-2.cdninstagram.com&oh=d6b021e235665b867e4abcee7e1001e3&oe=60BC581B"/></a></span><span><a href="https://www.instagram.com/p/CINFhJwDd0M/"> <img align="center" alt="latest-instagram-post-1" width="250px" src="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/128455823_160591145791989_1679633727913656942_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=jgGH1Gl48V0AX89hOcL&_nc_ht=scontent-iad3-2.cdninstagram.com&oh=e062defd88ebb99e89d0ce122b26bf3b&oe=60BD396B"/></a></span><span><a href="https://www.instagram.com/p/B1x85SwBF5G/"> <img align="center" alt="latest-instagram-post-2" width="250px" src="https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/67539491_653804098490094_990835210186973983_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=8ae9d6&_nc_ohc=inLXn5DTqWoAX8Dn1ps&_nc_ht=scontent-iad3-2.cdninstagram.com&oh=0f8b652060f2918aab435ab4e75ac1d8&oe=60BDD34B"/></a></span>
