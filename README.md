@@ -4,10 +4,7 @@
  ---
  
 - 🔭 I’m currently remotely working on [Upchannel ApS](http://upchannel.eu).
-- 🌱 I’m currently learning [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html).
-<!-- - 👯 I’m looking to collaborate on anything. -->
-<!-- 🤔 I’m looking for help with my lovelife. -->
-<!-- 💬 Ask me about anything but lovelife. -->
+- 🌱 I’m currently doing a REST API integration using [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html) and <img align="left" alt="vue" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" />
 - 😄 Pronouns: he / him / his
 - ⚡ Fun fact: I can make bubbles using my saliva.
 
