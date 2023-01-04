@@ -3,7 +3,7 @@
 
  ---
  
-- 🌱 I’m currently doing a REST API integration using [Laravel Jetstream Inertia](http://jetstream.laravel.com/1.x/stacks/inertia.html) and [Vue.js](http://vuejs.org).
+- 🌱 I’m trying to focus on what I need to be focusing for.
 - 😄 Pronouns: he / him / his
 - ⚡ Fun fact: I can make bubbles using my saliva.
 
