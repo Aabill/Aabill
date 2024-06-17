@@ -2,10 +2,6 @@
 ### Hi there 👋
 
  ---
- 
-- 🌱 I’m trying to focus on what I need to be focusing for.
-- 😄 Pronouns: he / him / his
-- ⚡ Fun fact: I can make bubbles using my saliva.
 
 
 #### Languages and tools
