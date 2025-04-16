@@ -26,10 +26,7 @@ I'm an **E-commerce Web Developer** who specializes in building and customizing 
 ---
 
 ## 📫 Let's Connect
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/your-profile)  
-- 🌐 [Portfolio Website](https://yourwebsite.dev)  
-- ✉️ Email me at: youremail@example.com  
+- ✉️ Email me at: domingoaaronbill@gmail.com
 
 ---
 
