@@ -1,19 +1,36 @@
+# 👋 Hi, I'm [Your Name]
 
-### Hi there 👋
+I'm an **E-commerce Web Developer** who specializes in building and customizing online stores with platforms like **ShopWired**. I focus on creating clean, responsive, and functional themes, while also extending core capabilities through **custom integrations and API work**.
 
- ---
+---
 
+## 🚀 What I Do
 
-#### Tech Stack
-<img align="left" alt="Visual Studio Code" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" /><img align="left" alt="html5" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /><img align="left" alt="css3" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" /><img align="left" alt="sass" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" /><img align="left" alt="javascript" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /><img align="left" alt="npm" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/npm/npm.png" /><img align="left" alt="webpack" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/webpack/webpack.png" /><img align="left" alt="vue" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" /><img align="left" alt="php" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" /><img align="left" alt="laravel" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/laravel/laravel.png" /><img align="left" style="display: inline-block" alt="git" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-<img align="left" style="display: inline-block" alt="git" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png" />
-<img align="left" style="display: inline-block" alt="git" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />
-<img align="left" style="display: inline-block" alt="git" width="20px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />
+- 🎨 **Custom Theme Development**  
+  Tailoring and optimizing ShopWired themes to meet unique client branding and user experience needs.
 
-<br/>
+- 🔌 **Third-Party Integrations**  
+  Built a Laravel-based application that connects with ShopWired via **API (Basic Auth)** to extend functionality beyond what the platform offers out-of-the-box.
 
-##  
+- 🧰 **Tech Stack**  
+  `Laravel`, `PHP`, `ShopWired`, `HTML`, `CSS`, `JavaScript`, `REST API`, `Tailwind CSS`, `Git`
 
-### 📫 <domingoaaronbill@gmail.com>
-[![Aabill's github stats](https://github-readme-stats.vercel.app/api?username=Aabill&theme=dark)](https://github.com/Aabill/github-readme-stats)
+---
 
+## 🛠 Recent Focus
+
+- Improving front-end performance and accessibility in custom e-commerce builds.
+- Creating reusable Laravel modules for API-based app integrations.
+- Exploring more advanced API strategies for multi-platform e-commerce apps.
+
+---
+
+## 📫 Let's Connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/your-profile)  
+- 🌐 [Portfolio Website](https://yourwebsite.dev)  
+- ✉️ Email me at: youremail@example.com  
+
+---
+
+Thanks for stopping by! ⭐ If you like what I do, feel free to connect or collaborate!
