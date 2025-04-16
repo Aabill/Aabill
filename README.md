@@ -1,4 +1,4 @@
-# 👋 Hi, I'm [Your Name]
+# 👋 Hi, I'm Aaron
 
 I'm an **E-commerce Web Developer** who specializes in building and customizing online stores with platforms like **ShopWired**. I focus on creating clean, responsive, and functional themes, while also extending core capabilities through **custom integrations and API work**.
 
